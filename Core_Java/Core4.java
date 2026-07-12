@@ -5,7 +5,7 @@ public class Core4 {
         int a = 10;
         int b = 15;
 
-
+        // conditional
         if(a > 12) {
             System.out.println("Greater");
         } else {
@@ -59,5 +59,19 @@ public class Core4 {
             System.out.println("Do While loop : " + j);
             j++;
         } while (j > 2);
+
+        // for loop
+        for (int aa = 0; aa < 10; aa++) {
+            System.out.println("Hello for Loop ...");
+        }
+
+        // Nested for loop
+        for (int zz = 0; zz < 10; zz++) {
+            System.out.println("Hello for Loop zz : " + zz);
+
+            for(int z = 1; z < 5; z++) {
+                System.out.println("Hello for Loop z : " + z);
+            }
+        }
     }
 }
